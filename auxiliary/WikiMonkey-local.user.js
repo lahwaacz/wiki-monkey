@@ -7,65 +7,65 @@
 // @description MediaWiki-compatible bot and editor assistant that runs in the browser (local version)
 // @website https://github.com/kynikos/wiki-monkey
 // @supportURL https://github.com/kynikos/wiki-monkey/issues
-// @updateURL file:///mnt/archive/Development/wiki-monkey/auxiliary/WikiMonkey-local.user.js
-// @downloadURL file:///mnt/archive/Development/wiki-monkey/auxiliary/WikiMonkey-local.user.js
-// @icon file:///mnt/archive/Development/wiki-monkey/auxiliary/wiki-monkey.png
-// @icon64 file:///mnt/archive/Development/wiki-monkey/auxiliary/wiki-monkey-64.png
+// @updateURL file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/auxiliary/WikiMonkey-local.user.js
+// @downloadURL file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/auxiliary/WikiMonkey-local.user.js
+// @icon file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/auxiliary/wiki-monkey.png
+// @icon64 file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/auxiliary/wiki-monkey-64.png
 // @match http://*.wikipedia.org/*
 // @match https://wiki.archlinux.org/*
 // @grant GM_info
 // @grant GM_xmlhttpRequest
 // @require https://code.jquery.com/jquery-2.1.3.min.js
-// @require file:///mnt/archive/Development/lib.js.generic/src/GMAPIEmulation.js
-// @require file:///mnt/archive/Development/lib.js.generic/src/Async.js
-// @require file:///mnt/archive/Development/lib.js.generic/src/Compatibility.js
-// @require file:///mnt/archive/Development/lib.js.generic/src/CSS.js
-// @require file:///mnt/archive/Development/lib.js.generic/src/DOM.js
-// @require file:///mnt/archive/Development/lib.js.generic/src/HTTP.js
-// @require file:///mnt/archive/Development/lib.js.generic/src/Obj.js
-// @require file:///mnt/archive/Development/lib.js.generic/src/RegEx.js
-// @require file:///mnt/archive/Development/lib.js.generic/src/Str.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/_Init.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/Bot.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/Cat.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/Cfg.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/Diff.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/Editor.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/Filters.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/Interlanguage.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/Log.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/Menu.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/Mods.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/MW.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/Parser.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/Tables.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/UI.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/WhatLinksHere.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/ArchPackages.js
-// @require file:///mnt/archive/Development/wiki-monkey/modules/ArchWiki.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ExpandContractions.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/FixBacklinkFragments.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/FixDoubleRedirects.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/FixFragments.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/FixLinkFragments.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/MultipleLineBreaks.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/SimpleReplace.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/SynchronizeInterlanguageLinks.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/UpdateCategoryTree.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiFixHeader.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiFixHeadings.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiFixLinks.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiNewTemplates.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiNPFilter.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiOldAURLinks.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiQuickReport.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiRCFilter.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiSaveTalk.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiSortContacts.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiSummaryToRelated.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiUpdatePackageTemplates.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/ArchWikiWantedCategories.js
-// @require file:///mnt/archive/Development/wiki-monkey/plugins/DeletePages.js
+// @require file:///home/lahwaacz/Bbox/pg/js/lib.js.generic/src/GMAPIEmulation.js
+// @require file:///home/lahwaacz/Bbox/pg/js/lib.js.generic/src/Async.js
+// @require file:///home/lahwaacz/Bbox/pg/js/lib.js.generic/src/Compatibility.js
+// @require file:///home/lahwaacz/Bbox/pg/js/lib.js.generic/src/CSS.js
+// @require file:///home/lahwaacz/Bbox/pg/js/lib.js.generic/src/DOM.js
+// @require file:///home/lahwaacz/Bbox/pg/js/lib.js.generic/src/HTTP.js
+// @require file:///home/lahwaacz/Bbox/pg/js/lib.js.generic/src/Obj.js
+// @require file:///home/lahwaacz/Bbox/pg/js/lib.js.generic/src/RegEx.js
+// @require file:///home/lahwaacz/Bbox/pg/js/lib.js.generic/src/Str.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/_Init.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/Bot.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/Cat.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/Cfg.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/Diff.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/Editor.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/Filters.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/Interlanguage.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/Log.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/Menu.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/Mods.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/MW.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/Parser.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/Tables.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/UI.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/WhatLinksHere.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/ArchPackages.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/modules/ArchWiki.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ExpandContractions.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/FixBacklinkFragments.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/FixDoubleRedirects.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/FixFragments.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/FixLinkFragments.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/MultipleLineBreaks.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/SimpleReplace.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/SynchronizeInterlanguageLinks.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/UpdateCategoryTree.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiFixHeader.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiFixHeadings.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiFixLinks.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiNewTemplates.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiNPFilter.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiOldAURLinks.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiQuickReport.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiRCFilter.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiSaveTalk.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiSortContacts.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiSummaryToRelated.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiUpdatePackageTemplates.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/ArchWikiWantedCategories.js
+// @require file:///home/lahwaacz/Bbox/pg/js/wiki-monkey/plugins/DeletePages.js
 // ==/UserScript==
 
 WM.main({
@@ -143,7 +143,7 @@ WM.main({
                     "Save discussion"
                 ],
                 [
-                    "User:Kynikos/Tasks",
+                    "User:Lahwaacz/Tasks",
                     "add discussion"
                 ]
             ]
